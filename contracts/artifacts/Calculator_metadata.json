@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateDifference",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Calculator.sol": "Calculator"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Calculator.sol": {
+			"keccak256": "0x6f178035ea32bb4e90868766c9af2637fa943f60743427d43d64c2a29e43444b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://720a1346239dcdc1d72f05392d769801de4fcf70e9c08f0348db16a131def9d4",
+				"dweb:/ipfs/QmPU5isdghY7M8wao6FXcRfWd3DA5gUg6sqw2CfRkJ9A5g"
+			]
+		},
+		"library/Math.sol": {
+			"keccak256": "0x434dbc0db60043e9dda700e18cee9a056d0a968685aa45c1f7e9f8fe94a8baaa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf9cff3782f9a7c192e2e4ba133a05de3791ceff690983e10f0280a976b9f4d7",
+				"dweb:/ipfs/QmNtujUtJfxMqfroJLHfVpJFZtYvQWfCCwa7hhj6B5Lvdr"
+			]
+		}
+	},
+	"version": 1
+}
